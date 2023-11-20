@@ -116,12 +116,13 @@ body {
     text-align: center;
     padding: 1rem;
     background-color: var(--clr--dark-cyan);
-    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
-    background-position: top left, bottom right;
+    background-image: url('images/bg-pattern-top.svg');
+    background-image: url('images/bg-pattern-bottom.svg');
+    /* background-position: top right, bottom right; */
 }
 
 .card {
-    border-radius: 12px;
+    border-radius: 16px;
     background-color: #fff;
     overflow: hidden;
 }
@@ -129,9 +130,8 @@ body {
 .profile-image {
     border: 5px solid #fff;
     border-radius: 50%;
-    margin: -3.2rem auto 1rem;
-    /* transform: translateY(-50%); */
-    /* margin-top: -2rem; */
+    margin: auto;
+    transform: translateY(-50%);
 }
 
 .city {
