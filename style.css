@@ -134,6 +134,10 @@ body {
     transform: translateY(-50%);
 }
 
+.info {
+  margin-top: -3rem;
+}
+
 .city {
     margin-top: .5rem;
 }
