@@ -116,9 +116,9 @@ body {
     text-align: center;
     padding: 1rem;
     background-color: var(--clr--dark-cyan);
-    background-image: url('images/bg-pattern-top.svg');
-    background-image: url('images/bg-pattern-bottom.svg');
-    /* background-position: top right, bottom right; */
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 .card {
@@ -153,8 +153,3 @@ body {
 .block {
     display: block;
 }
-
-
-
-
-
